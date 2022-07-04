@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+.Electronics{
+    height: 580px;
+    padding: 2%;
+}
+.sales{
+    height: 550px;
+    padding: 2%;
+}
+.main{
+    padding: 2%;
+    height: 320px;
+}
+.electronics-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.dropdown-content a{
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width:500px) {
+    .sales{
+        height: 800px;
+    }
+    .Electronics{
+        height: 630px;
+    }
+
+    @media screen and (max-width: 600px) {
+        .footer{
+            height: 370px;
+        }
+    }
+
+
+    @media screen and (max-width: 414px) {
+        .main{
+            height: 260px;
+        }
+    }
+}
+
+
+@media screen and (min-width: 820px) {
+    .product-image{
+        padding: 10px 5px;
+        width: 130px;
+        height: 190px;
+    }
+    .product-text{
+        font-size: 10px;
+    }
+    .product-image img{
+        width: 60px;
+        height: 60px;
+    }
+    .Electronics{
+        height: 460px;
+    }
+    .sponsor{
+        height: 800px;
+    }
+    .footer{
+        height: 715px;
+    }
+
+
+    
+}
+@media screen and (min-width: 768px) {
+    .product-image{
+        width: 120px;
+        padding: 3px 3px;
+        height: 220px;
+    }
+    .Electronics{
+        height: 520px;
+    }
+
+
+    @media screen and (min-width: 912px) {
+        .product-image{
+            width: 140px;
+            padding: 7px 5px;
+            height: 180px;
+        }
+        .product-image img{
+            width: 80px;
+            height: 80px;
+        }
+        .Electronics{
+            height: 450px;
+        }
+        .sponsor{
+            height: 650px;
+        }
+        .footer{
+            height: 920px;
+        }
+    }
+
+
+
+    @media screen and (min-width: 1024px) {
+        .sales{
+            height: 600px;
+        }
+        .product-image{
+            width: 160px;
+            padding: 7px 5px;
+            height: 180px;
+        }
+        .product-image img{
+            width: 80px;
+            height: 80px;
+        }
+        .footer{
+            height: 400px;
+        }
+    }
+
+
+    @media screen and (min-width: 1280px) {
+        .sponsor{
+            height: 470px;
+        }
+        .footer{
+            height: 420px;
+        }
+        .product-image{
+            width: 200px;
+            padding: 7px 5px;
+            height: 180px;
+        }
+        .product-image img{
+            width: 90px;
+            height: 90px;
+        }
+    }
+}

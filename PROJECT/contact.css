@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+.dropdown-content a{
+    color: white;
+    text-decoration: none;
+}
+.about{
+    padding: 2%;
+    height: 450px;
+}
+.text{
+    font-size: 13px;
+    text-align: left;
+    margin-top: -15px;
+}
+.about-text h2{
+    text-align: center;
+    color: rgb(109, 31, 3);
+}
+.contact-text h2{
+    text-align: center;
+    color: rgb(109, 31, 3);
+}
+.contact-text{
+    margin-top: 40px;
+}
+.ques{
+    text-align: center;
+    color: gray;
+}
+.contact-item p{
+    font-weight: 100;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contact-item{
+    box-shadow: 4px 4px 4px gray;
+    width: 250px;
+}
+.contact-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 200px;
+}
+.input{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+}
+.msg{
+    width: 200px;
+    height: 30px;
+    font-size: 13px;
+    font-weight: 200;
+    border: 1px solid gray;
+    color: gray;
+}
+.msgs{
+    width: 408px;
+    height: 30px;
+    font-weight: 200;
+    margin-top: 10px;
+    font-size: 13px;
+    border: 1px solid gray;
+    color: gray;
+}
+.socials{
+    width: 35px;
+    background-color: none;
+    position: fixed;
+    transform: translateY(-50%);
+    right: 0;
+    top: 80%;
+    justify-content: center;
+}
+.medias{
+    background-color: none;
+    border: 1px solid gray;
+    padding: 3px;
+    color: gray;
+    text-align: center;
+    box-shadow: 0px 3px 3px  gray;
+}
+.medias a{
+    color: grey;
+    text-decoration: none;
+}
+.medias:hover{
+    color: rgb(68, 20, 2);
+    cursor: pointer;
+}
+.medias a:hover{
+    color: rgb(68, 20, 2);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 400px) {
+    .text{
+        font-size: 8px;
+        text-align: center;
+        font-weight: 600;
+        margin-top: -5px;
+        line-height: 15px;
+    }
+    .contact-item p{
+        font-size: 9px;
+        font-weight: 500;
+    }
+    .contact-text h2{
+        font-size: 12px;
+    }
+    .about-text h2{
+        font-size: 14px;
+    }
+    .about-text{
+        padding: 2%;
+    }
+    .msg{
+        width: 70px;
+        font-size: 8px;
+        height: 20px;
+        font-weight: 900;
+    }
+    .msgs{
+        width: 145px;
+        font-size: 8px;
+        height: 20px;
+        font-weight: 900;
+        margin-top: 5px;
+    }
+    .socials{
+        width: 25px;
+        top: 70%;
+    }
+    .ques{
+        font-size: 11px;
+    }
+    .medias{
+        font-size: 13px;
+    }
+    .contact-content{
+        display: flex;
+        justify-content: center;
+        justify-content: center;
+        gap: 20px;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .contact-item{
+        box-shadow: 4px 4px 4px gray;
+        width: 140px;
+    }
+    .input{
+        display: block;
+    }
+
+    @media screen and (max-width: 414px) {
+        .contact-item-two{
+            width: 200px;
+            display: block;
+        }
+        .msg{
+            width: 70px;
+            font-size: 8px;
+            height: 20px;
+            font-weight: 900;
+        }
+        .msgs{
+            width: 145px;
+            font-size: 8px;
+            height: 20px;
+            font-weight: 900;
+            margin-top: 5px;
+        }
+    }
+}
